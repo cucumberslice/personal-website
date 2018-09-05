@@ -13,7 +13,7 @@ class LandingPage extends Component {
 
                             <hr />
 
-                            <p>HTML/CSS | Boostrap | Javascript | React | React Native | NodeJS | Express | Postgres SQl</p>
+                            <p>HTML/CSS | Boostrap | Javascript | React | React Native | NodeJS | Express | Postgres SQL</p>
 
                             <div className='social-links'>
                                 {/* LinkedIn */}
