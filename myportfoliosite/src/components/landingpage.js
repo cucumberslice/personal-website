@@ -29,7 +29,7 @@ class LandingPage extends Component {
                     </a>
 
                     {/* Freecodecamp */}
-                    <a href="http://google.com" target="_blank" rel="noonpener noreferrer">
+                            <a href="https://www.freecodecamp.org/cucumberslice" target="_blank" rel="noonpener noreferrer">
                       <i className="fa fa-free-code-camp" aria-hidden="true" />
                     </a>
 
