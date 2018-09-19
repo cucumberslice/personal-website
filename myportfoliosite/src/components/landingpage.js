@@ -24,7 +24,7 @@ class LandingPage extends Component {
                     </a>
 
                     {/* Github */}
-                    <a href="http://google.com" target="_blank" rel="noonpener noreferrer">
+                        <a href="https://github.com/cucumberslice" target="_blank" rel="noonpener noreferrer">
                       <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
 
