@@ -68,6 +68,7 @@
 .projects-grid {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .contact-body{
@@ -117,4 +118,8 @@
   background: #27221F;
   color: white;
   padding: 2em
+}
+
+.about-me h1{
+  text-align: center
 }
