@@ -43,7 +43,7 @@ class AboutMe extends Component {
               Away from computer, my interests include going to the
               gymn, travelling, snowboarding, reading self improvement
               books, enjoying long talks at different coffee shops and
-              an ameature food connoisseur.
+              an ameature food connoisseur(self-proclaimed).
             </p>
           </div>;
     }
