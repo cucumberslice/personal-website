@@ -33,9 +33,9 @@ class LandingPage extends Component {
                       <i className="fa fa-free-code-camp" aria-hidden="true" />
                     </a>
 
-                    {/* Youtube  */}
-                    <a href="http://google.com" target="_blank" rel="noonpener noreferrer">
-                      <i className="fa fa-youtube-square" aria-hidden="true" />
+                    {/* Instagram  */}
+                            <a href="https://www.instagram.com/cucumber_slice/" target="_blank" rel="noonpener noreferrer">
+                                <i className="fa fa-instagram" aria-hidden="true" />
                     </a>
                   </div>
                 </div>
