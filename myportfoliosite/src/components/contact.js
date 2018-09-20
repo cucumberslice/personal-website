@@ -10,7 +10,7 @@ class Contact extends Component {
             <Grid className="contact-grid">
               <Cell col={6}>
                 <h2>Yeshi Wangdi</h2>
-                <img src="https://previews.123rf.com/images/marish/marish1801/marish180100014/93241128-cute-cat-illustration-icon-avatar.jpg" alt="avatar" style={{ height: "250px" }} />
+                <img src="img_6626_2.png" alt="avatar" style={{ height: "250px" }} />
                 <p
                   style={{
                     width: "75%",

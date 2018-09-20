@@ -33,7 +33,7 @@ class Project extends Component {
                         GITHUB
                       </a>
                     </Button>
-                    <Button colored>LiveDemo</Button>
+                    <Button colored disabled>LiveDemo</Button>
                     <Button colored>
                       <a className="dark-text" href="http://car-gurus.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         Heruko
@@ -67,7 +67,7 @@ class Project extends Component {
                         LiveDemo
                       </a>
                     </Button>
-                    <Button colored>HEROKU</Button>
+                    <Button colored disabled>HEROKU</Button>
                   </CardActions>
                   <CardMenu style={{ color: "#fff" }}>
                     <IconButton name="share" />
