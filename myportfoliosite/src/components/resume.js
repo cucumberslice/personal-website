@@ -10,7 +10,7 @@ class Resume extends Component {
             <Grid>
               <Cell col={4}>
                 <div style={{ textAlign: "center" }}>
-                  <img src="https://previews.123rf.com/images/marish/marish1801/marish180100014/93241128-cute-cat-illustration-icon-avatar.jpg" alt="avatar" style={{ height: "200px" }} />
+                  <img src="img_5734_2.png" alt="avatar" style={{ height: "200px" }} />
                 </div>
 
                 <h2 style={{ paddingTop: "2em" }}>Yeshi Wangdi</h2>
