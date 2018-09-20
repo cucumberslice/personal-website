@@ -19,22 +19,22 @@ class LandingPage extends Component {
 
                   <div className="social-links">
                     {/* LinkedIn */}
-                    <a href="https://www.linkedin.com/in/yeshi-wangdi/" target="_blank" rel="noonpener noreferrer">
+                    <a href="https://www.linkedin.com/in/yeshi-wangdi/" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-linkedin-square" aria-hidden="true" />
                     </a>
 
                     {/* Github */}
-                        <a href="https://github.com/cucumberslice" target="_blank" rel="noonpener noreferrer">
+                        <a href="https://github.com/cucumberslice" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
 
                     {/* Freecodecamp */}
-                            <a href="https://www.freecodecamp.org/cucumberslice" target="_blank" rel="noonpener noreferrer">
+                            <a href="https://www.freecodecamp.org/cucumberslice" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-free-code-camp" aria-hidden="true" />
                     </a>
 
                     {/* Instagram  */}
-                            <a href="https://www.instagram.com/cucumber_slice/" target="_blank" rel="noonpener noreferrer">
+                            <a href="https://www.instagram.com/cucumber_slice/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-instagram" aria-hidden="true" />
                     </a>
                   </div>

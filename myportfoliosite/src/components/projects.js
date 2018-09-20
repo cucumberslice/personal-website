@@ -14,60 +14,100 @@ class Project extends Component {
 
     toggleCategories() {
         if(this.state.activeTab === 0) {
-            return (
-            <div className='projects-grid'>
-              {/*Project 1*/}
-               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #1</CardTitle>
-                     <CardText>
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                     </CardText>
-                     <CardActions border>
-                         <Button colored>Github</Button>
-                         <Button colored>LiveDemo</Button>
-                         <Button colored>Github</Button>
-                     </CardActions>
-                     <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
+            return <div className="projects-grid">
+                {/*Project 1*/}
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                  <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
+                    GraceShopper (Team Project)
+                  </CardTitle>
+                  <CardText>
+                    An E-commerce site where a user can post and
+                    sell cars - Developed with NERD stack using
+                    Node, Express, React, Sequelize - Styled with
+                    Material UI CSS - Implemented Stripe payment and
+                    OAuth log-ins
+                  </CardText>
+                  <CardActions border>
+                    <Button colored>
+                      <a className="dark-text" href="https://github.com/fantastic-four1337/grace_shopper" target="_blank" rel="noopener noreferrer">
+                        GITHUB
+                      </a>
+                    </Button>
+                    <Button colored>LiveDemo</Button>
+                    <Button colored>
+                      <a className="dark-text" href="http://car-gurus.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        Heruko
+                      </a>
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}>
+                    <IconButton name="share" />
+                  </CardMenu>
                 </Card>
-            
+
                 {/*Project 2*/}
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #2</CardTitle>
-                     <CardText>
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                     </CardText>
-                     <CardActions border>
-                         <Button colored>Github</Button>
-                         <Button colored>LiveDemo</Button>
-                         <Button colored>Github</Button>
-                     </CardActions>
-                     <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-               </Card>
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                  <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
+                    AR Image Recognition
+                  </CardTitle>
+                  <CardText>
+                    Augmented Reality with viro react-native -
+                    Developed using Viromedia platform - Added 3D
+                    models to the scene by converting into vrx -
+                    Rendered 3D objects on the phone
+                  </CardText>
+                  <CardActions border>
+                    <Button colored>
+                      <a className="dark-text" href="https://github.com/cucumberslice/augmentedReality-1" target="_blank" rel="noopener noreferrer">
+                        GITHUB
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a className="dark-text" href="https://www.youtube.com/watch?v=lCavRm7zoHc" target="_blank" rel="noopener noreferrer">
+                        LiveDemo
+                      </a>
+                    </Button>
+                    <Button colored>HEROKU</Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}>
+                    <IconButton name="share" />
+                  </CardMenu>
+                </Card>
 
                 {/*Project 3*/}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #3</CardTitle>
-                     <CardText>
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                     </CardText>
-                     <CardActions border>
-                         <Button colored>Github</Button>
-                         <Button colored>LiveDemo</Button>
-                         <Button colored>Github</Button>
-                     </CardActions>
-                     <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-               </Card>
-
-               
-
-               </div>
-            )
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                  <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
+                    WaitQR (Team Project)
+                  </CardTitle>
+                  <CardText>
+                    A Waiting App for busy people in New York
+                        - Implemented CRUD
+                        - Added geolocation with google map api
+                        - Added video and text chat using sockets and twilio api
+    
+                  </CardText>
+                  <CardActions border>
+                    <Button colored>
+                      <a className="dark-text" href="https://github.com/cucumberslice/capstone" target="_blank" rel="noopener noreferrer">
+                        GITHUB
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a className="dark-text" href="https://www.youtube.com/watch?v=ze5afn9wFkI" target="_blank" rel="noopener noreferrer">
+                        LiveDemo
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a className="dark-text" href="http://waitrq.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        HEROKU
+                      </a>
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}>
+                    <IconButton name="share" />
+                  </CardMenu>
+                </Card>
+              </div>;
         }
         else if(this.state.activeTab === 1){
             return (

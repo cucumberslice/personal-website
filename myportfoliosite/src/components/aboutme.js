@@ -5,7 +5,7 @@ class AboutMe extends Component {
         return <div className="about-me">
             <h1>AboutMe</h1>
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I grew up in <a className="dark-text" href="https://en.wikipedia.org/wiki/Bhutan" target="_blank">
+                I grew up in <a className="dark-text" href="https://en.wikipedia.org/wiki/Bhutan" target="_blank" rel="noopener noreferrer">
                 Bhutan
               </a>, a small shangrila captivated by the beautiful himalayas and went to college in Thailand. After graduation, I moved to NYC and started working in the restaurants.
             </p>
@@ -15,7 +15,7 @@ class AboutMe extends Component {
             </p>
 
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Having worked in the restaurant industry for almost five years, it was time for something new. I joined <a className="dark-text" href="https://www.fullstackacademy.com/software-engineering-immersive" target="_blank">
+                Having worked in the restaurant industry for almost five years, it was time for something new. I joined <a className="dark-text" href="https://www.fullstackacademy.com/software-engineering-immersive" target="_blank" rel="noopener noreferrer">
                 Fullstack Academy
               </a>
               's Software Engineering Immersive Program to transition into a career in software development.
