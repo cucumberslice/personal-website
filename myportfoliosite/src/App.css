@@ -67,7 +67,10 @@
 
 .projects-grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+ 
+  
+  
   
 }
 
@@ -126,4 +129,8 @@
 
 .dark-text{
   color: black
+}
+
+.cards1 {
+  margin: 10px;
 }
